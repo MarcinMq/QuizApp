@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_blue"
+    android:padding="24dp">
+
+    <!-- Obrazek quiz.png -->
+    <ImageView
+        android:id="@+id/img_quiz_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/quiz"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Nagłówek Menu -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Główne"
+        android:textSize="32sp"
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Przycisk "Rozpocznij Grę" -->
+    <Button
+        android:id="@+id/btn_rozpocznij_gre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rozpocznij Grę"
+        android:textSize="18sp"
+        android:textColor="@color/button_text"
+        android:drawableLeft="@drawable/play"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Przycisk "Ustawienia" -->
+    <Button
+        android:id="@+id/btn_ustawienia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ustawienia"
+        android:textSize="18sp"
+        android:textColor="@color/button_text"
+        android:drawableLeft="@drawable/settings"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Przycisk "Wyniki" -->
+    <Button
+        android:id="@+id/btn_wyniki"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyniki"
+        android:textSize="18sp"
+        android:textColor="@color/button_text"
+        android:drawableLeft="@drawable/result"
+        android:background="@drawable/rounded_button" />
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+[
+    {
+        "czas": 30,
+        "pytanie": "Jaka jest stolica Francji?",
+        "odpowiedzi": ["Paryż", "Berlin", "Madryt", "Rzym"],
+        "poprawneOdp": ["Paryż"]
+    },
+    {
+        "czas": 25,
+        "pytanie": "Jakie kraje graniczą z Polską?",
+        "odpowiedzi": ["Niemcy", "Czechy", "Ukraina", "Hiszpania"],
+        "poprawneOdp": ["Niemcy", "Czechy", "Ukraina"]
+    },
+    {
+        "czas": 20,
+        "pytanie": "Jakie jest największe państwo na świecie pod względem powierzchni?",
+        "odpowiedzi": ["Kanada", "Rosja", "Chiny", "USA"],
+        "poprawneOdp": ["Rosja"]
+    },
+    {
+        "czas": 25,
+        "pytanie": "Które oceany graniczą z Afryką?",
+        "odpowiedzi": ["Atlantycki", "Indyjski", "Arktyczny", "Spokojny"],
+        "poprawneOdp": ["Atlantycki", "Indyjski"]
+    },
+    {
+        "czas": 30,
+        "pytanie": "Na jakim kontynencie znajduje się pustynia Sahara?",
+        "odpowiedzi": ["Ameryka Południowa", "Afryka", "Azja", "Australia"],
+        "poprawneOdp": ["Afryka"]
+    },
+    {
+        "czas": 20,
+        "pytanie": "Jakie kraje są częścią Skandynawii?",
+        "odpowiedzi": ["Norwegia", "Szwecja", "Finlandia", "Dania"],
+        "poprawneOdp": ["Norwegia", "Szwecja", "Dania"]
+    },
+    {
+        "czas": 25,
+        "pytanie": "Które rzeki są najdłuższe na świecie?",
+        "odpowiedzi": ["Amazonka", "Nil", "Jangcy", "Missisipi"],
+        "poprawneOdp": ["Amazonka", "Nil"]
+    },
+    {
+        "czas": 30,
+        "pytanie": "Jakie państwa mają dostęp do Morza Bałtyckiego?",
+        "odpowiedzi": ["Polska", "Litwa", "Łotwa", "Czechy"],
+        "poprawneOdp": ["Polska", "Litwa", "Łotwa"]
+    },
+    {
+        "czas": 20,
+        "pytanie": "Która rzeka jest najdłuższa na świecie?",
+        "odpowiedzi": ["Amazonka", "Nil", "Jangcy", "Missisipi"],
+        "poprawneOdp": ["Amazonka"]
+    },
+    {
+        "czas": 25,
+        "pytanie": "Które kraje należą do G7?",
+        "odpowiedzi": ["USA", "Kanada", "Francja", "Chiny"],
+        "poprawneOdp": ["USA", "Kanada", "Francja"]
+    }
+]

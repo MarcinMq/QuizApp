@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_blue"
+    android:padding="24dp">
+
+    <!-- Nagłówek Ustawień -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ustawienia Gry"
+        android:textSize="28sp"
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Wybór poziomu trudności -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poziom Trudności"
+        android:textSize="20sp"
+        android:textColor="@color/text_color"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spinner_poziom_trudnosci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:spinnerMode="dropdown" />
+
+    <!-- Ustawienia dźwięku -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dźwięk"
+        android:textSize="20sp"
+        android:textColor="@color/text_color"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Switch
+        android:id="@+id/switch_dzwiek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Włączony"
+        android:textSize="18sp"
+        android:textColor="@color/text_color"
+        android:padding="12dp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Przycisk Zapisz -->
+    <Button
+        android:id="@+id/btn_zapisz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zapisz"
+        android:textSize="18sp"
+        android:textColor="@color/button_text"
+        android:background="@drawable/rounded_button" />
+
+</LinearLayout>
